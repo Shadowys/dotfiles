@@ -170,3 +170,4 @@ xterm*|rxvt*)
 *)
     ;;
 esac
+source /home/danieltan/.oh-my-git/prompt.sh
