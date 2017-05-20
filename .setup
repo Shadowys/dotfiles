@@ -1,0 +1,9 @@
+#assuming yadm is installed, and this script is downloaded through that.
+echo "The font used is Fantasque Sans Mono"
+echo "now installing zsh, ohmyzsh and antigen"
+sudo apt install zsh 
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+mkdir $HOME/.antigen
+curl -L git.io/antigen > $HOME/.antigen/antigen.zsh
+source ~/.zshrc
+
